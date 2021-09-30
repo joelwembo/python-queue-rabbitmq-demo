@@ -1,0 +1,29 @@
+'queue' => [
+    'topics' => [
+        'product_action_attribute.update' => [
+            'publisher' => 'amqp-magento'
+        ]
+    ],
+    'config' => [
+        'publishers' => [
+            'product_action_attribute.update' => [
+                'connections' => [
+                    'amqp' => [
+                        'name' => 'amqp',
+                        'exchange' => 'magento',
+                        'disabled' => false
+                    ],
+                    'db' => [
+                        'name' => 'db',
+                        'disabled' => true
+                    ]
+                ]
+            ]
+        ]
+    ],
+    'consumers' => [
+        'product_action_attribute.update' => [
+            'connection' => 'amqp',
+        ],
+    ],
+],

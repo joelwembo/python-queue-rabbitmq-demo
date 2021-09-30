@@ -1,4 +1,4 @@
-# rabbitmq-demo
+# Rabbitmq-demo
 Message Queuing with RabbitMQ using NodeJs
 
 # rabbitmq-demo

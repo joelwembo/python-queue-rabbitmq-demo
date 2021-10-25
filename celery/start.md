@@ -11,7 +11,7 @@ Installation & Configuration
 ============================
 
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/joelwembo/rabbitmq-demo/blob/main/celery/1_6KqtrP8sP5mAn9xXYBQD5Q.png)
 
 
 RabbitMQ is the default broker so it doesn't require any additional

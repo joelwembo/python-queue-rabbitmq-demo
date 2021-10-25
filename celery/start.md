@@ -10,6 +10,10 @@
 Installation & Configuration
 ============================
 
+
+![alt text](http://url/to/img.png)
+
+
 RabbitMQ is the default broker so it doesn't require any additional
 dependencies or initial configuration, other than the URL location of
 the broker instance you want to use:

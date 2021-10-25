@@ -8,5 +8,7 @@ app = Celery('hello', broker='amqp://guest@localhost//')
 def hello():
     return 'hello world'
   
-  
+  # $ pip install "celery[librabbitmq]"
+
+# pip install "celery[librabbitmq,redis,auth,msgpack]"
   
